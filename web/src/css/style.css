@@ -332,15 +332,16 @@ td.rdtYear:hover {
   width: 1em;
   height: 1em;
 }
-.key__square--form1 {
+.key__square--bu1 {
   background: #70d6ff;
 }
-.key__square--form2 {
+.key__square--bu2 {
   background: #ffd670;
 }
-.key__square--form3 {
+.key__square--bu3 {
   background: #ef709d;
 }
+/*
 .key__square--form4 {
   background: #dabfff;
 }
@@ -349,6 +350,22 @@ td.rdtYear:hover {
 }
 .key__square--form6 {
   background: #FF561C;
+}
+*/
+.key__square--home{
+  background: #91ff00;
+}
+.key__square--teenagers{
+  background: #0c9600;
+}
+.key__square--school{
+  background: #0011ff;
+}
+.key__square--GangViolence{
+  background: #3377f5;
+}
+.key__square--inline--sick{
+  background: #ff70ff;
 }
 .ReactModalPortal .ReactModal__Overlay {
   -webkit-box-align: center;
@@ -494,12 +511,12 @@ td.rdtYear:hover {
 .table .table__row--subheader th {
   height: 4rem;
 }
-.table__cell--form-1 {
+.table__cell--Home {
   background: #70d6ff;
   padding: 3rem 0;
   cursor: pointer;
 }
-.table__cell--form-1.table__cell--first-half-hour {
+.table__cell--Home.table__cell--first-half-hour {
   background: #70d6ff;
   cursor: pointer;
   display: block;
@@ -507,7 +524,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-1.table__cell--second-half-hour {
+.table__cell--Home.table__cell--second-half-hour {
   background: #70d6ff;
   cursor: pointer;
   display: block;
@@ -515,12 +532,12 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-2 {
+.table__cell--Teenagers {
   background: #ffd670;
   padding: 3rem 0;
   cursor: pointer;
 }
-.table__cell--form-2.table__cell--first-half-hour {
+.table__cell--Teenagers.table__cell--first-half-hour {
   background: #ffd670;
   cursor: pointer;
   display: block;
@@ -528,7 +545,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-2.table__cell--second-half-hour {
+.table__cell--Teenagers.table__cell--second-half-hour {
   background: #ffd670;
   cursor: pointer;
   display: block;
@@ -536,12 +553,12 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-3 {
+.table__cell--School {
   background: #ef709d;
   padding: 3rem 0;
   cursor: pointer;
 }
-.table__cell--form-3.table__cell--first-half-hour {
+.table__cell--School.table__cell--first-half-hour {
   background: #ef709d;
   cursor: pointer;
   display: block;
@@ -549,7 +566,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-3.table__cell--second-half-hour {
+.table__cell--School.table__cell--second-half-hour {
   background: #ef709d;
   cursor: pointer;
   display: block;
@@ -557,12 +574,13 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-4 {
+
+.table__cell--GangViolence {
   background: #dabfff;
   border-top: 1rem solid #dabfff;
   cursor: pointer;
 }
-.table__cell--form-4.table__cell--first-half-hour {
+.table__cell--GangViolence.table__cell--first-half-hour {
   background: #dabfff;
   cursor: pointer;
   display: block;
@@ -570,7 +588,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-4.table__cell--second-half-hour {
+.table__cell--GangViolence.table__cell--second-half-hour {
   background: #dabfff;
   cursor: pointer;
   display: block;
@@ -578,12 +596,12 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-5 {
+.table__cell--Sick {
   background: #85ffc7;
   border-top: 1rem solid #85ffc7;
   cursor: pointer;
 }
-.table__cell--form-5.table__cell--first-half-hour {
+.table__cell--Sick.table__cell--first-half-hour {
   background: #85ffc7;
   cursor: pointer;
   display: block;
@@ -591,7 +609,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
-.table__cell--form-5.table__cell--second-half-hour {
+.table__cell--Sick.table__cell--second-half-hour {
   background: #85ffc7;
   cursor: pointer;
   display: block;
@@ -599,6 +617,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
+/*
 .table__cell--form-6 {
   background: #FF561C;
   border-top: 1rem solid #FF561C;
@@ -620,6 +639,7 @@ td.rdtYear:hover {
   padding: 3rem 0;
   width: 50%;
 }
+*/
 html {
   font-size: 62.5%;
 }

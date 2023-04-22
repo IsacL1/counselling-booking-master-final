@@ -116,7 +116,7 @@ function BookingForm({ onMakeBooking, user, roomData, date, updateCalendar, onSh
                 <option value="Home">Home</option>
                 <option value="Teenagers">Teenagers</option>
                 <option value="School">School</option>
-                <option value="Gang Violence">Gang Violence</option>
+                <option value="GangViolence">Gang Violence</option>
                 <option value="Sick">Sick</option>
               </select>
             </label>

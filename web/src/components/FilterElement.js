@@ -24,25 +24,31 @@ function FilterElement({
         <div onChange={(event) => onToggleFeature(event.target.name)} >
           <div className="form__group">
             <input type="checkbox" id="macLab" name="macLab" className="form__input--checkbox" checked={filterParams[0].value} />
+            <span className="key__square key__square--home"></span>
             <label for="macLab" className="form__label form__label--inline">Home</label>
           </div>
           <div className="form_group">
             <input type="checkbox" id="pcLab" name="pcLab" className="form__input--checkbox" checked={filterParams[1].value} />
+            <span className="key__square key__square--teenagers"></span>
             <label for="pcLab" className="form__label form__label--inline">Teenagers</label>
           </div>
           <div className="form_group">
             <input type="checkbox" id="tv" name="tv" className="form__input--checkbox" checked={filterParams[2].value} />
+            <span className="key__square key__square--school"></span>
             <label for="tv" className="form__label form__label--inline">School</label>
           </div>
           <div className="form_group">
             <input type="checkbox" id="opWalls" name="opWalls" className="form__input--checkbox" checked={filterParams[3].value} />
+            <span className="key__square key__square--GangViolence"></span>
             <label for="opWall" className="form__label form__label--inline">Gang Violence</label>
           </div>
           <div className="form_group">
             <input type="checkbox" id="projector" name="projector" className="form__input--checkbox" checked={filterParams[4].value} />
-            <label for="projector" className="form__label form__label--inline">Sick</label>
+            <span className="key__square key__square--bu1"></span>
+            <label for="projector" className="form__label form__label--inline form__label--sick">Sick</label>
           </div>
         </div>
+
         <h4 className="form__heading form__heading--filter">Availability</h4>
           <div onChange={(event) => onSetAvailabilityParam(event.target.value)} >
             <div className="form_group">
